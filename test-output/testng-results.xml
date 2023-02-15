@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T23:17:20 IST" name="Suite" finished-at="2023-02-10T23:17:40 IST" duration-ms="19839">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T23:17:20 IST" name="chromeTest" finished-at="2023-02-10T23:17:38 IST" duration-ms="17951">
+      <class name="LoginTest.Testchild1">
+        <test-method is-config="true" signature="openChromeBrowser(java.lang.String)[pri:0, instance:LoginTest.Testchild1@235ecd9f]" started-at="2023-02-10T23:17:20 IST" name="openChromeBrowser" finished-at="2023-02-10T23:17:22 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeBrowser -->
+        <test-method signature="newsignup()[pri:0, instance:LoginTest.Testchild1@235ecd9f]" started-at="2023-02-10T23:17:22 IST" name="newsignup" finished-at="2023-02-10T23:17:29 IST" duration-ms="7357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsignup -->
+        <test-method is-config="true" signature="openChromeBrowser(java.lang.String)[pri:0, instance:LoginTest.Testchild1@235ecd9f]" started-at="2023-02-10T23:17:29 IST" name="openChromeBrowser" finished-at="2023-02-10T23:17:30 IST" duration-ms="832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeBrowser -->
+        <test-method signature="setuplog()[pri:0, instance:LoginTest.Testchild1@235ecd9f]" started-at="2023-02-10T23:17:30 IST" name="setuplog" finished-at="2023-02-10T23:17:38 IST" duration-ms="7610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuplog -->
+      </class> <!-- LoginTest.Testchild1 -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-02-10T23:17:38 IST" name="firefoxTest" finished-at="2023-02-10T23:17:40 IST" duration-ms="1834">
+      <class name="LoginTest.Testchild1">
+        <test-method is-config="true" signature="openChromeBrowser(java.lang.String)[pri:0, instance:LoginTest.Testchild1@5c80cf32]" started-at="2023-02-10T23:17:38 IST" name="openChromeBrowser" finished-at="2023-02-10T23:17:40 IST" duration-ms="1815" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1432)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1409)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:417)
+at LoginTest.TestParent1.openChromeBrowser(TestParent1.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:287)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1273)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1191)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeBrowser -->
+        <test-method signature="newsignup()[pri:0, instance:LoginTest.Testchild1@5c80cf32]" started-at="2023-02-10T23:17:40 IST" name="newsignup" finished-at="2023-02-10T23:17:40 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1432)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1409)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:417)
+at LoginTest.TestParent1.openChromeBrowser(TestParent1.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:287)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1273)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1191)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsignup -->
+        <test-method is-config="true" signature="openChromeBrowser(java.lang.String)[pri:0, instance:LoginTest.Testchild1@5c80cf32]" started-at="2023-02-10T23:17:40 IST" name="openChromeBrowser" finished-at="2023-02-10T23:17:40 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeBrowser -->
+        <test-method signature="setuplog()[pri:0, instance:LoginTest.Testchild1@5c80cf32]" started-at="2023-02-10T23:17:40 IST" name="setuplog" finished-at="2023-02-10T23:17:40 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1432)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1409)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1197)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:417)
+at LoginTest.TestParent1.openChromeBrowser(TestParent1.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.32.2-linux
+at io.github.bonigarcia.wdm.online.UrlHandler.getCandidateUrl(UrlHandler.java:287)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1273)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1191)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuplog -->
+      </class> <!-- LoginTest.Testchild1 -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
